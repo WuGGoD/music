@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import { resolve } from 'path'
+import path, { resolve } from 'path'
 
 
 
@@ -8,6 +8,7 @@ export default defineConfig({
     define: {
 
     },
+    base: '/music',
     build: {
         rollupOptions: {
             input: {
